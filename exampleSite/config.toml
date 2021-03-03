@@ -1,8 +1,8 @@
 
-baseurl = "https://example.com"
+baseurl = "https://apigratis.com"
 disablePathToLower = false
 languageCode = "en-us"
-title = "Site title"
+title = "Api Gratis"
 theme = "hugo-octopress"
 
 # Needed so we can serve the example website without extra switches
@@ -57,10 +57,10 @@ post = "/blog/:year-:month-:day-:title/" # change the post URL to look like the 
   truncate = true
 
   # Author's name (appears in meta tags and under posts)
-  author = "Author"
+  author = "Pasha Aditya Rahman"
 
   # This text appears in the site header under website title
-  subtitle = "Subtitle appears under the website title"
+  subtitle = "Penggemar Linux"
 
   # Search engine URL
   searchEngineURL = "https://www.google.com/search"
@@ -98,26 +98,26 @@ post = "/blog/:year-:month-:day-:title/" # change the post URL to look like the 
 # If navigationNewWindow (under [params]) is set to true then all links except root ("/") will open in a new window
 # If it does not exist or is set to false then links will open in the same window
 [[menu.main]]
-  Name = "example.net"
-  URL = "https://www.example.net/"
+  Name = "apigratis.net"
+  URL = "https://www.apigratis.net/"
   weight = -5
 
 [[menu.main]]
   Name = "This theme on Github"
-  URL = "https://www.github.com/parsiya/hugo-octopress"
+  URL = "https://www.github.com/X-PrCx12/hugo-octopress"
 
 
 # Sidebar menus
 # Enable with "sidebarMenuEnabled = true" under [params]
 # Header text is "sidebarMenuHeader" under [params]
 [[menu.sidebar]]
-  Name = "example.net"
-  URL = "https://www.example.net"
+  Name = "apigratis.net"
+  URL = "https://www.apigratis.net"
   weight = 0
 
 [[menu.sidebar]]
   Name = "This theme on Github"
-  URL = "https://www.github.com/parsiya/hugo-octopress"
+  URL = "https://www.github.com/X-PrCx12/hugo-octopress"
   weight = 1
 
 [markup]
